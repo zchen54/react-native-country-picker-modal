@@ -64,7 +64,11 @@ Main.defaultProps = {
 export default Main
 export {
   getCountriesAsync as getAllCountries,
+  getCountryInfoAsync as getCountryInfo,
   getCountryCallingCodeAsync as getCallingCode,
+  getCountryCurrencyAsync as getCurrency,
+  getCountryNameAsync as getCountryName,
+  getImageFlagAsync as getImageFlag,
 } from './CountryService'
 export { CountryModal } from './CountryModal'
 export { DARK_THEME, DEFAULT_THEME } from './CountryTheme'
